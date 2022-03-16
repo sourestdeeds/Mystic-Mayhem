@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps
+END
+BaseCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps/BaseCamp.cs
+END
+GypsyCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps/GypsyCamp.cs
+END
+HealerCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Multis/Camps/HealerCamp.cs
+END
+BankerCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Multis/Camps/BankerCamp.cs
+END
+OrcCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps/OrcCamp.cs
+END
+LizardmenCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps/LizardmenCamp.cs
+END
+RatCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps/RatCamp.cs
+END
+BrigandCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/9/trunk/Scripts/Multis/Camps/BrigandCamp.cs
+END
+MageCamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Multis/Camps/MageCamp.cs
+END

@@ -1,0 +1,85 @@
+using System;
+using System.Collections;
+using Server.Items;
+using Server.Targeting;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a slimey corpse" )]
+	public class AcidSlime : BaseCreature
+	{
+		[Constructable]
+		public AcidSlime() : base( AIType.AI_Melee, FightMode.Closest, 10, 1, 0.2, 0.4 )
+		{
+			Name = "a slime";
+			Body = 51;
+			BaseSoundID = 456;
+
+			Hue = Utility.RandomSlimeHue();
+
+			SetStr( 122, 134 );
+			SetDex( 116, 121 );
+			SetInt( 116, 120 );
+
+			SetHits( 95, 119 );
+
+			SetDamage( 19, 25 );
+
+			SetDamageType( ResistanceType.Physical, 100 );
+
+			SetResistance( ResistanceType.Physical, 50, 70 );
+			SetResistance( ResistanceType.Poison, 10, 20 );
+
+			SetSkill( SkillName.Poisoning, 80.1, 90.0 );
+			SetSkill( SkillName.MagicResist, 75.1, 80.0 );
+			SetSkill( SkillName.Tactics, 79.3, 84.0 );
+			SetSkill( SkillName.Wrestling, 79.3, 84.0 );
+
+			Fame = 2300;
+			Karma = -2300;
+
+			VirtualArmor = 48;
+
+			Tamable = false;
+
+		}
+
+		public override void GenerateLoot()
+		{
+			AddLoot( LootPack.Rich );
+			AddLoot( LootPack.Gems );
+		}
+		public override void OnDeath( Container c )
+		{
+			switch ( Utility.Random( 20 ) )
+			{
+				case 0: c.DropItem( new PSkull() ); break;
+				case 1: c.DropItem( new PLeg() ); break;
+				case 2: c.DropItem( new PTorso() ); break;
+
+			}
+
+			base.OnDeath( c );
+		}
+
+		public override Poison PoisonImmune{ get{ return Poison.Greater; } }
+		public override Poison HitPoison{ get{ return Poison.Greater; } }
+
+
+		public AcidSlime( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+			writer.Write( (int) 0 );
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+			int version = reader.ReadInt();
+		}
+	}
+}

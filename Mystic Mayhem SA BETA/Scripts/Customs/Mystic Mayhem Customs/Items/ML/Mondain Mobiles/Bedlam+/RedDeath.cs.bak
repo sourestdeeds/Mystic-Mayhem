@@ -1,0 +1,79 @@
+using System;
+using Server.Items;
+using Server.Mobiles;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a red death corpse" )]
+	public class RedDeath : BaseCreature
+	{
+		public override WeaponAbility GetWeaponAbility()
+		{
+			return WeaponAbility.WhirlwindAttack;
+		}
+
+		[Constructable]
+		public RedDeath( ) : base( AIType.AI_Melee, FightMode.Closest, 10, 1, 0.2, 0.4 )
+		{
+			Body = 793;
+			Hue = 32;
+			Name = "red death";
+			SetStr( 317, 325 );
+			SetDex( 241, 252 );
+			SetInt( 241, 255 );
+
+			SetHits( 1520, 1615 );
+
+			SetDamage( 20, 24 );
+
+			SetDamageType( ResistanceType.Physical, 25 );
+			SetDamageType( ResistanceType.Fire, 75 );
+
+			SetResistance( ResistanceType.Physical, 60, 70 );
+			SetResistance( ResistanceType.Fire, 90 );
+			SetResistance( ResistanceType.Poison, 100 );
+
+			SetSkill( SkillName.MagicResist, 123.6, 143.0 );
+			SetSkill( SkillName.Tactics, 120.4, 141.8 );
+			SetSkill( SkillName.Wrestling, 122.5, 143.6 );
+			SetSkill( SkillName.Anatomy, 120.8, 142.9 );
+
+			Fame = 5000;
+			Karma = -5000;
+		}
+		public override void GenerateLoot()
+		{
+			AddLoot( LootPack.FilthyRich, 1 );
+
+		}
+		public override void OnDeath( Container c )
+		{
+			if ( Utility.Random( 3 ) < 1 )
+				c.DropItem( new Blight() );
+
+			base.OnDeath( c );
+		}
+
+		public override Poison PoisonImmune{ get{ return Poison.Lethal; } }
+		// TODO: "This creature can breath chaos."
+		public override bool HasBreath{ get{ return true; } }
+
+		public RedDeath( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+
+			writer.Write( (int) 0 ); // version
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+
+			int version = reader.ReadInt();
+		}
+	}
+}

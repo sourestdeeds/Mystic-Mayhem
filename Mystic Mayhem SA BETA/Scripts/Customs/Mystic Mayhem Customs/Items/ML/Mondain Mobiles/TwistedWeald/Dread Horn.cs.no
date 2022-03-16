@@ -1,0 +1,216 @@
+using System;
+using System.Collections;
+using Server;
+using Server.Items;
+using Server.Factions;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a dread horn corpse" )]
+	
+	public class DreadHorn : BaseCreature
+	{
+		private Map m_TargetMap;
+		private Point3D m_GateLoc;
+		private bool m_Summon;
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public Map TargetMap
+		{
+			get{ return m_TargetMap; }
+			set{ m_TargetMap = value; }
+		}
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public Point3D GateLoc
+		{
+			get{ return m_GateLoc; }
+			set{ m_GateLoc = value; }
+		}
+
+
+		[CommandProperty( AccessLevel.GameMaster )]
+		public bool Summon
+		{
+			get{ return m_Summon; }
+			set{ m_Summon = value; }
+		}
+		
+		[Constructable]
+		public DreadHorn() : base( AIType.AI_Mage, FightMode.Closest, 10, 1, 0.2, 0.4 )
+		{
+			Name = "a Dread Horn";
+			Body = 257;
+			BaseSoundID = 0xA8;
+
+			SetStr( 1281, 1305 );
+			SetDex( 591, 815 );
+			SetInt( 1226, 1250 );
+
+			SetHits( 1690, 1830 );
+			SetStam( 636, 945 );
+
+			SetDamage( 120, 170 );
+
+			SetDamageType( ResistanceType.Physical, 100 );
+
+			SetResistance( ResistanceType.Physical, 70, 82 );
+			SetResistance( ResistanceType.Fire, 70, 82 );
+			SetResistance( ResistanceType.Cold, 70, 82 );
+			SetResistance( ResistanceType.Poison, 70, 82 );
+			SetResistance( ResistanceType.Energy, 70, 82 );
+
+			SetSkill( SkillName.EvalInt, 155.1, 200.0 );
+			SetSkill( SkillName.Magery, 155.1, 200.0 );
+			SetSkill( SkillName.MagicResist, 155.1, 200.0 );
+			SetSkill( SkillName.Tactics, 155.1, 200.0 );
+			SetSkill( SkillName.Wrestling, 155.1, 200.0 );
+
+			Fame = 11500;
+			Karma = -11500;
+
+			VirtualArmor = 75;
+			PackItem( new Silver( 20, 30 ) );
+			
+		}
+
+		public override void GenerateLoot()
+		{
+			AddLoot( LootPack.AosUltraRich );
+			AddLoot( LootPack.AosSuperBoss );
+		}
+
+		public override void OnDeath( Container c )
+		{
+			if ( Utility.Random( 2 ) < 1 )
+				c.DropItem( new DreadHornMane() );
+			
+			if( Utility.RandomBool() )
+				c.DropItem( new PristineDreadHorn() );
+
+			int swtch = Utility.Random(160);
+			if ( swtch < 80 )
+			{
+				switch ( Utility.Random( 6 ) )
+				{
+				case 0: c.DropItem( new OvenMitts(2) ); break;
+				case 1: c.DropItem( new NimbleFingers(2) ); break;
+				case 2: c.DropItem( new RubberGloves(2) ); break;
+				case 3: c.DropItem( new TailorsTouch(2) ); break;
+				case 4: c.DropItem( new TinkersAid(2) ); break;
+				case 5: c.DropItem( new WoodWonder(2) ); break;
+				}
+			}
+			else if ( swtch < 115 )
+			{
+				switch ( Utility.Random( 6 ) )
+				{
+				case 0: c.DropItem( new OvenMitts(4) ); break;
+				case 1: c.DropItem( new NimbleFingers(4) ); break;
+				case 2: c.DropItem( new RubberGloves(4) ); break;
+				case 3: c.DropItem( new TailorsTouch(4) ); break;
+				case 4: c.DropItem( new TinkersAid(4) ); break;
+				case 5: c.DropItem( new WoodWonder(4) ); break;
+				}
+			}
+			else if ( swtch < 125 )
+			{
+				switch ( Utility.Random( 6 ) )
+				{
+				case 0: c.DropItem( new OvenMitts(6) ); break;
+				case 1: c.DropItem( new NimbleFingers(6) ); break;
+				case 2: c.DropItem( new RubberGloves(6) ); break;
+				case 3: c.DropItem( new TailorsTouch(6) ); break;
+				case 4: c.DropItem( new TinkersAid(6) ); break;
+				case 5: c.DropItem( new WoodWonder(6) ); break;
+				}
+			}
+			if (m_Summon)
+				ClearGate( GateLoc.X, GateLoc.Y, GateLoc.Z, TargetMap );
+			base.OnDeath( c );
+		}
+		private static Queue m_ToDelete = new Queue();
+		public static void ClearGate( int x, int y, int z, Map map )
+		{
+			IPooledEnumerable eable = map.GetItemsInRange( new Point3D( x, y, z ), 0 );
+
+			foreach ( Item item in eable )
+			{
+				if ( item is Moongate && item.Z == z )
+					m_ToDelete.Enqueue( item );
+			}
+
+			eable.Free();
+
+			while ( m_ToDelete.Count > 0 )
+					((Item)m_ToDelete.Dequeue()).Delete();
+		}
+
+
+	/*	public override void OnDeath( Container c )
+		{
+
+			switch ( Utility.Random( 25 ))
+			{
+			case 0: c.DropItem( new BigElvenChair() ); break;
+			case 1: c.DropItem( new ColorfulTapestry() ); break;
+			case 2: c.DropItem( new DecorativeAcorn() ); break;
+			case 3: c.DropItem( new ElvenAlchemyTable() ); break;
+			case 4: c.DropItem( new ElvenBookshelf() ); break;
+			case 5: c.DropItem( new ElvenBookStand() ); break;
+			case 6: c.DropItem( new ElvenDresser() ); break;
+			case 7: c.DropItem( new ElvenLoveSeat() ); break;
+			case 8: c.DropItem( new ElvenReadingChair() ); break;
+			case 9: c.DropItem( new ElvenStorageTable() ); break;
+			case 10: c.DropItem( new ElvenTapestry() ); break;
+			case 11: c.DropItem( new ElvenWallMap() ); break;
+			case 12: c.DropItem( new ElvenWashBasin() ); break;
+			case 13: c.DropItem( new FancyElvenArmoire() ); break;
+			case 14: c.DropItem( new FancyElvenTable() ); break;
+			case 15: c.DropItem( new FruitBowl() ); break;
+			case 16: c.DropItem( new LargeGlowingBeetle() ); break;
+			case 17: c.DropItem( new LargeGlowingBeetle2() ); break;
+			case 18: c.DropItem( new LargeGlowingBeetle3() ); break;
+			case 19: c.DropItem( new OrnateElvenBox() ); break;
+			case 20: c.DropItem( new OrnateElvenChair() ); break;
+			case 21: c.DropItem( new OrnateElvenChest() ); break;
+			case 22: c.DropItem( new OrnateElvenTable() ); break;
+			case 23: c.DropItem( new SimpleElvenArmoire() ); break;
+			case 24: c.DropItem( new SmallElvenTapestry() ); break;
+
+			}  
+
+			base.OnDeath( c );
+		}*/
+
+		public override bool AutoDispel{ get{ return true; } }
+		public override bool BardImmune{ get{ return true; } }
+		public override bool CanRummageCorpses{ get{ return true; } }                
+		public override Poison PoisonImmune{ get{ return Poison.Lethal; } }		
+		public override Poison HitPoison{ get{ return (0.8 >= Utility.RandomDouble() ? Poison.Greater : Poison.Deadly); } }
+
+		public DreadHorn( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+			writer.Write( (int) 0 );
+
+			writer.Write( m_TargetMap );
+			writer.Write( m_GateLoc );
+			writer.Write( m_Summon );
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+			int version = reader.ReadInt();
+
+			m_TargetMap = reader.ReadMap();
+			m_GateLoc = reader.ReadPoint3D();
+			m_Summon = reader.ReadBool();
+		}
+	}
+}

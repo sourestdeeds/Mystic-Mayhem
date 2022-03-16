@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections
+END
+ConfirmRewardGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/ConfirmRewardGump.cs
+END
+ComunityCollectionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/ComunityCollectionGump.cs
+END
+BaseCollectionMobile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/BaseCollectionMobile.cs
+END
+CollectionDecayTimer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/CollectionDecayTimer.cs
+END
+ConfirmTransferPetGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/ConfirmTransferPetGump.cs
+END
+ICollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/ICollection.cs
+END
+BaseCollectionItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/BaseCollectionItem.cs
+END
+SelectTitleGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/SelectTitleGump.cs
+END
+CollectionItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Community%20Collections/CollectionItem.cs
+END

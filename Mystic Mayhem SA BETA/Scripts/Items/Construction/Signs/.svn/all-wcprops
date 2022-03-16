@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Signs
+END
+BaseSign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Signs/BaseSign.cs
+END
+Sign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Signs/Sign.cs
+END
+LocalizedSign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Signs/LocalizedSign.cs
+END

@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/9/trunk/Scripts/Misc
+END
+Fastwalk.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Misc/Fastwalk.cs
+END
+AttackMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Misc/AttackMessage.cs
+END
+SkillCheck.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/SkillCheck.cs
+END
+AutoRestart.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Misc/AutoRestart.cs
+END
+BuffIcons.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Scripts/Misc/BuffIcons.cs
+END
+WebStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Scripts/Misc/WebStatus.cs
+END
+ProtocolExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Misc/ProtocolExtensions.cs
+END
+CharacterCreation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Misc/CharacterCreation.cs
+END
+AOS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/4/trunk/Scripts/Misc/AOS.cs
+END
+ProfanityProtection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Misc/ProfanityProtection.cs
+END
+DataPath.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/9/trunk/Scripts/Misc/DataPath.cs
+END
+AutoSave.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/9/trunk/Scripts/Misc/AutoSave.cs
+END
+LightCycle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/LightCycle.cs
+END
+LoginStats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/LoginStats.cs
+END
+Email.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/7/trunk/Scripts/Misc/Email.cs
+END
+Geometry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Misc/Geometry.cs
+END
+LanguageStatistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Misc/LanguageStatistics.cs
+END
+TreasureMapProtection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Misc/TreasureMapProtection.cs
+END
+Profile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/Scripts/Misc/Profile.cs
+END
+Animations.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/Animations.cs
+END
+Guild.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4/trunk/Scripts/Misc/Guild.cs
+END
+Titles.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/Scripts/Misc/Titles.cs
+END
+Poison.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/Scripts/Misc/Poison.cs
+END
+Keywords.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Misc/Keywords.cs
+END
+CurrentExpansion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Misc/CurrentExpansion.cs
+END
+DispellableFieldAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/Scripts/Misc/DispellableFieldAttribute.cs
+END
+MapDefinitions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Misc/MapDefinitions.cs
+END
+HardwareInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/Scripts/Misc/HardwareInfo.cs
+END
+DoorGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/Scripts/Misc/DoorGenerator.cs
+END
+NameList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Misc/NameList.cs
+END
+LootPack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Misc/LootPack.cs
+END
+Loot.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/8/trunk/Scripts/Misc/Loot.cs
+END
+ShardPoller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Misc/ShardPoller.cs
+END
+WeightOverloading.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Misc/WeightOverloading.cs
+END
+ClientVerification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Misc/ClientVerification.cs
+END
+Paperdoll.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Scripts/Misc/Paperdoll.cs
+END
+NameVerification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Misc/NameVerification.cs
+END
+CrashGuard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/9/trunk/Scripts/Misc/CrashGuard.cs
+END
+Broadcasts.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/Broadcasts.cs
+END
+Cleanup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/Scripts/Misc/Cleanup.cs
+END
+InhumanSpeech.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Misc/InhumanSpeech.cs
+END
+Notoriety.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/9/trunk/Scripts/Misc/Notoriety.cs
+END
+WelcomeTimer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/Scripts/Misc/WelcomeTimer.cs
+END
+FoodDecay.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Scripts/Misc/FoodDecay.cs
+END
+TextDefinition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4/trunk/Scripts/Misc/TextDefinition.cs
+END
+AccountPrompt.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Misc/AccountPrompt.cs
+END
+RegenRates.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/RegenRates.cs
+END
+Weather.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/Scripts/Misc/Weather.cs
+END
+uoamVendors.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Misc/uoamVendors.cs
+END
+ServerList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Misc/ServerList.cs
+END
+RenameRequests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Misc/RenameRequests.cs
+END
+ResourceInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/Scripts/Misc/ResourceInfo.cs
+END
+SocketOptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Misc/SocketOptions.cs
+END
+VendorGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/Scripts/Misc/VendorGenerator.cs
+END
+DispellableAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Misc/DispellableAttribute.cs
+END
+RaceDefinitions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Misc/RaceDefinitions.cs
+END
+ShrinkTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Misc/ShrinkTable.cs
+END
+Emitter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/Scripts/Misc/Emitter.cs
+END

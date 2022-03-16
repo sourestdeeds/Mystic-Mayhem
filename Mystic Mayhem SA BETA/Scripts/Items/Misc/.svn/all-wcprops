@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/Scripts/Items/Misc
+END
+Guillotine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Guillotine.cs
+END
+EffectItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/EffectItem.cs
+END
+Rares.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Rares.cs
+END
+DeceitBrazier.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/DeceitBrazier.cs
+END
+SpecialBeardDye.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/SpecialBeardDye.cs
+END
+Moonstone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Moonstone.cs
+END
+IDurability.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/IDurability.cs
+END
+ArcaneGem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/Scripts/Items/Misc/ArcaneGem.cs
+END
+MoonstoneGate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/MoonstoneGate.cs
+END
+WarningItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/WarningItem.cs
+END
+SerpentPillar.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/SerpentPillar.cs
+END
+Gold.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Gold.cs
+END
+HairDye.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/HairDye.cs
+END
+SpecialHairDye.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/SpecialHairDye.cs
+END
+Key.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Key.cs
+END
+PlayerVendorDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PlayerVendorDeed.cs
+END
+PowerCrystal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PowerCrystal.cs
+END
+ClockworkAssembly.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/ClockworkAssembly.cs
+END
+SwarmOfFlies.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/SwarmOfFlies.cs
+END
+ExecutionersCap.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/ExecutionersCap.cs
+END
+PublicMoongate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PublicMoongate.cs
+END
+KeyRing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/KeyRing.cs
+END
+BankCheck.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/BankCheck.cs
+END
+TribalPaint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/TribalPaint.cs
+END
+BulletinBoards.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/BulletinBoards.cs
+END
+GlassItems.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/GlassItems.cs
+END
+OilCloth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/trunk/Scripts/Items/Misc/OilCloth.cs
+END
+Bola.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Bola.cs
+END
+PoolOfAcid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PoolOfAcid.cs
+END
+Blocker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Blocker.cs
+END
+TribalBerry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/TribalBerry.cs
+END
+UnholyBone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/UnholyBone.cs
+END
+Firebomb.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Items/Misc/Firebomb.cs
+END
+Teleporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Teleporter.cs
+END
+PlayerBulletinBoards.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PlayerBulletinBoards.cs
+END
+Origami.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Origami.cs
+END
+Static.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/Scripts/Items/Misc/Static.cs
+END
+AcidSlime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/AcidSlime.cs
+END
+WindChimes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/WindChimes.cs
+END
+ResGate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/ResGate.cs
+END
+CommunicationCrystals.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/CommunicationCrystals.cs
+END
+Beeswax.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Beeswax.cs
+END
+InteriorDecorator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/Scripts/Items/Misc/InteriorDecorator.cs
+END
+Blood.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Blood.cs
+END
+LOSBlocker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/LOSBlocker.cs
+END
+EffectController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/EffectController.cs
+END
+FlipableAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/FlipableAttribute.cs
+END
+PowerGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PowerGenerator.cs
+END
+MorphItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/MorphItem.cs
+END
+PromotionalToken.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/PromotionalToken.cs
+END
+TrashChest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/TrashChest.cs
+END
+BolaBall.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/BolaBall.cs
+END
+TrashBarrel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/TrashBarrel.cs
+END
+Scales.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Scales.cs
+END
+Waypoint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Waypoint.cs
+END

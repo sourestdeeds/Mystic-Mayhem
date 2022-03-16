@@ -1,0 +1,401 @@
+using System;
+using Server;
+using System.Collections;
+using Server.Targeting;
+using Server.Items;
+using Server.Network;
+using Server.Mobiles; 
+using Server.Misc;
+using Server.Commands;
+using Server.Commands.Generic;
+using Server.ContextMenus;
+
+namespace Server.Commands
+{
+	public class Graball
+	{
+		ArrayList toDelete = new ArrayList();
+			private static Queue m_ToDelete = new Queue();
+
+		public static void Initialize()
+		{
+			CommandSystem.Register( "Graball", AccessLevel.Player, new CommandEventHandler( Graball_OnCommand ) );
+			CommandSystem.Register( "GA", AccessLevel.Player, new CommandEventHandler( Graball_OnCommand ) );
+		}
+
+		private class GraballTarget : Target
+		{
+			public GraballTarget( Mobile m ) : base( 15, false, TargetFlags.None )
+			{
+			}
+
+			protected override void OnTarget( Mobile from, object o )
+			{
+				if ( !BaseCommand.IsAccessible( from, o ) )
+					from.SendMessage( "That is not accessible." );
+				else if ( o is Corpse )
+				{
+
+					Corpse C = (Corpse)o;
+
+					//	TreasureMapChest C = (TreasureMapChest)o;
+
+					if ( ! from.InRange( C.GetWorldLocation(), 2 ) )
+					{
+						from.LocalOverheadMessage( MessageType.Regular, 906, 1019045 ); // I can't reach that.
+						return;
+					}
+					if ( !C.CanLoot(from, null) || C.IsCriminalAction(from) )
+					{
+						from.SendMessage( "You can not Loot this." );
+						return;
+					}
+
+					//Container pack = from.Backpack;
+					Container pack = GetGrabPack( from );
+
+					if ( pack == null )
+						return;
+					ArrayList list = new ArrayList();
+
+					foreach ( Item item in C.Items )
+					{
+
+						if( item is Gold )
+						{
+							int amt = (int)(item.Amount *.9);
+							if( amt < 1 )
+								amt = 1;
+							item.Amount = amt;
+							list.Add( item );
+						}
+
+						else if ( item.Movable && item.Stackable )
+							list.Add( item );
+					}
+
+					for ( int i = 0; i < list.Count; ++i )
+					{
+						Item item = (Item)list[i];
+
+						if ( !pack.CheckHold( from, item, false, true ) )
+							return;
+
+						bool rejected;
+						LRReason reject;
+		from.NextActionTime = DateTime.Now;
+						from.Lift( item, item.Amount, out rejected, out reject );
+
+						if ( rejected )
+							continue;
+
+						//from.Drop( pack, Point3D.Zero );
+						DropInPack( from, pack );
+					}
+
+					from.SendMessage( "You grab the loot!" );
+				}
+				else if ( o is TreasureMapChest )
+				{
+
+					//Corpse C = (Corpse)o;
+
+					TreasureMapChest C = (TreasureMapChest)o;
+					if ( C.Locked )
+					{
+						C.PublicOverheadMessage( MessageType.Regular, 0, false, string.Format( "DOH! It is locked!" ) );
+						return;
+					}
+					if ( ! from.InRange( C.GetWorldLocation(), 2 ) )
+					{
+						from.LocalOverheadMessage( MessageType.Regular, 906, 1019045 ); // I can't reach that.
+						return;
+					}
+
+					//Container pack = from.Backpack;
+					Container pack = GetGrabPack( from );
+
+					if ( pack == null )
+						return;
+					ArrayList list = new ArrayList();
+
+					foreach ( Item item in C.Items )
+					{
+
+						if( item is Gold )
+						{
+							int amt = (item.Amount / 3) * 2;
+							if( amt < 1 )
+								amt = 1;
+							item.Amount = amt;
+							list.Add( item );
+						}
+
+						else if ( item.Movable && item.Stackable )
+							list.Add( item );
+					}
+
+		//			int pickedUp = 0;
+
+					for ( int i = 0; i < list.Count; ++i )
+					{
+						Item item = (Item)list[i];
+
+						if ( !pack.CheckHold( from, item, false, true ) )
+							return;
+
+						bool rejected;
+						LRReason reject;
+		from.NextActionTime = DateTime.Now;
+						from.Lift( item, item.Amount, out rejected, out reject );
+
+						if ( rejected )
+							continue;
+
+						//from.Drop( pack, Point3D.Zero );
+						DropInPack( from, pack );
+
+		//				if ( ++pickedUp == 3 )
+		//					break;
+					}
+				}
+				else if ( o is SOSGoldenChest )
+				{
+
+					//Corpse C = (Corpse)o;
+
+					SOSGoldenChest C = (SOSGoldenChest)o;
+
+					if ( ! from.InRange( C.GetWorldLocation(), 2 ) )
+					{
+						from.LocalOverheadMessage( MessageType.Regular, 906, 1019045 ); // I can't reach that.
+						return;
+					}
+
+					//Container pack = from.Backpack;
+					Container pack = GetGrabPack( from );
+
+					if ( pack == null )
+						return;
+					ArrayList list = new ArrayList();
+
+					foreach ( Item item in C.Items )
+					{
+
+						if( item is Gold )
+						{
+							int amt = (item.Amount / 3) * 2;
+							if( amt < 1 )
+								amt = 1;
+							item.Amount = amt;
+							list.Add( item );
+						}
+
+						else if ( item.Movable && item.Stackable )
+							list.Add( item );
+					}
+
+		//			int pickedUp = 0;
+
+					for ( int i = 0; i < list.Count; ++i )
+					{
+						Item item = (Item)list[i];
+
+						if ( !pack.CheckHold( from, item, false, true ) )
+							return;
+
+						bool rejected;
+						LRReason reject;
+		from.NextActionTime = DateTime.Now;
+						from.Lift( item, item.Amount, out rejected, out reject );
+
+						if ( rejected )
+							continue;
+
+						//from.Drop( pack, Point3D.Zero );
+						DropInPack( from, pack );
+
+		//				if ( ++pickedUp == 3 )
+		//					break;
+					}
+				}
+				else if ( o is SOSWoodenChest )
+				{
+
+					//Corpse C = (Corpse)o;
+
+					SOSWoodenChest C = (SOSWoodenChest)o;
+
+					if ( ! from.InRange( C.GetWorldLocation(), 2 ) )
+					{
+						from.LocalOverheadMessage( MessageType.Regular, 906, 1019045 ); // I can't reach that.
+						return;
+					}
+
+					//Container pack = from.Backpack;
+					Container pack = GetGrabPack( from );
+
+					if ( pack == null )
+						return;
+					ArrayList list = new ArrayList();
+
+					foreach ( Item item in C.Items )
+					{
+
+						if( item is Gold )
+						{
+							int amt = (item.Amount / 3) * 2;
+							if( amt < 1 )
+								amt = 1;
+							item.Amount = amt;
+							list.Add( item );
+						}
+
+						else if ( item.Movable && item.Stackable )
+							list.Add( item );
+					}
+
+		//			int pickedUp = 0;
+
+					for ( int i = 0; i < list.Count; ++i )
+					{
+						Item item = (Item)list[i];
+
+						if ( !pack.CheckHold( from, item, false, true ) )
+							return;
+
+						bool rejected;
+						LRReason reject;
+		from.NextActionTime = DateTime.Now;
+						from.Lift( item, item.Amount, out rejected, out reject );
+
+						if ( rejected )
+							continue;
+
+						DropInPack( from, pack ); //, Point3D.Zero );
+
+		//				if ( ++pickedUp == 3 )
+		//					break;
+					}
+
+					from.SendMessage( "You grab the loot!" );
+				}
+				else if ( o is CampMetalChest )
+				{
+
+					//Corpse C = (Corpse)o;
+
+					CampMetalChest C = (CampMetalChest)o;
+
+					if ( ! from.InRange( C.GetWorldLocation(), 2 ) )
+					{
+						from.LocalOverheadMessage( MessageType.Regular, 906, 1019045 ); // I can't reach that.
+						return;
+					}
+
+					//Container pack = from.Backpack;
+					Container pack = GetGrabPack( from );
+
+					if ( pack == null )
+						return;
+					ArrayList list = new ArrayList();
+
+					foreach ( Item item in C.Items )
+					{
+
+						if( item is Gold )
+						{
+							int amt = (item.Amount / 3) * 2;
+							if( amt < 1 )
+								amt = 1;
+							item.Amount = amt;
+							list.Add( item );
+						}
+
+						else if ( item.Movable && item.Stackable )
+							list.Add( item );
+					}
+
+		//			int pickedUp = 0;
+
+					for ( int i = 0; i < list.Count; ++i )
+					{
+						Item item = (Item)list[i];
+
+						if ( !pack.CheckHold( from, item, false, true ) )
+							return;
+
+						bool rejected;
+						LRReason reject;
+		from.NextActionTime = DateTime.Now;
+						from.Lift( item, item.Amount, out rejected, out reject );
+
+						if ( rejected )
+							continue;
+
+						DropInPack( from, pack ); //, Point3D.Zero );
+
+		//				if ( ++pickedUp == 3 )
+		//					break;
+					}
+
+					from.SendMessage( "You grab the loot!" );
+				}
+				else
+					from.SendMessage( "You can not Grab loot from that." );
+
+			}
+		}
+
+		public static void DropInPack( Mobile mob, Container pack) //, Point3D loc )
+		{
+			Mobile from = mob;
+			Item item = from.Holding;
+
+			if( item == null )
+				return;
+
+			from.Holding = null;
+		//	bool bounced = true;
+
+			item.SetLastMoved();
+
+			if ( !pack.TryDropItem( from, item, false ) )	// Attempt to stack it
+				pack.DropItem( item );
+
+		//	if( to == null || !item.DropToItem( from, to, loc ) )
+		//		item.Bounce( from );
+		//	else
+		//		bounced = false;
+
+		//	item.ClearBounce();
+
+		//	if( !bounced )
+		//		SendDropEffect( item );
+
+			return;
+		}
+
+		public static Container GetGrabPack( Mobile from )
+		{
+			Container grabPack = from.Backpack.FindItemByType( typeof(GrabPack) ) as Container;
+
+			return ( null == grabPack ) ? from.Backpack : grabPack;
+		}
+
+		
+		[Usage( "Graball" )]
+		[Description( "It Grabs all stackable items from any corpse or treasure chest targeted." )]
+		private static void Graball_OnCommand( CommandEventArgs e )
+		{
+		//	Mobile from = e.Mobile;
+		//	Container grabPack = GetGrabPack( from );
+			e.Mobile.Target = new GraballTarget( e.Mobile );
+
+		}
+		private static void BeginGraball( Mobile from )
+		{
+			from.Target = new GraballTarget( from );
+		}		
+	}
+}

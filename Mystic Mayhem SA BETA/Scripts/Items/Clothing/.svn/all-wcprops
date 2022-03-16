@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing
+END
+Shirts.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/Shirts.cs
+END
+Cloaks.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/Cloaks.cs
+END
+Hats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/Hats.cs
+END
+Shoes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/Shoes.cs
+END
+BaseClothing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/BaseClothing.cs
+END
+Pants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/Pants.cs
+END
+OuterTorso.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/OuterTorso.cs
+END
+MiddleTorso.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/MiddleTorso.cs
+END
+Waist.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/Waist.cs
+END
+OuterLegs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Items/Clothing/OuterLegs.cs
+END

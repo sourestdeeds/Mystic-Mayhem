@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/Scripts/Customs/Mondain's%20Legacy/Commands
+END
+SHTelGenDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/SHTelGenDelete.cs
+END
+SignGenDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/SignGenDelete.cs
+END
+DoorGenDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/DoorGenDelete.cs
+END
+TelGenDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/TelGenDelete.cs
+END
+DecorateMLDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/DecorateMLDelete.cs
+END
+uoamVendorsDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/uoamVendorsDelete.cs
+END
+MoonGenDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/MoonGenDelete.cs
+END
+DecorateDelete.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/Scripts/Customs/Mondain's%20Legacy/Commands/DecorateDelete.cs
+END

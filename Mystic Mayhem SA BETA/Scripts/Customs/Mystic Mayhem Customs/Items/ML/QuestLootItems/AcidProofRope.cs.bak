@@ -1,0 +1,33 @@
+using System;
+
+namespace Server.Items
+{
+	public class AcidProofRope : Item
+	{
+
+		[Constructable]
+		public AcidProofRope( ) : base( 0x20D )
+		{
+			Name = "Acid Proof Rope";
+			Weight = 2.0;
+		}
+
+		public AcidProofRope( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+
+			writer.Write( (int) 0 );
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+
+			int version = reader.ReadInt();
+		}
+	}
+}

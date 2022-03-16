@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/Scripts/Items/Weapons/Ranged
+END
+BaseRanged.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/Scripts/Items/Weapons/Ranged/BaseRanged.cs
+END
+HeavyCrossbow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Items/Weapons/Ranged/HeavyCrossbow.cs
+END
+RepeatingCrossbow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Items/Weapons/Ranged/RepeatingCrossbow.cs
+END
+Crossbow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Items/Weapons/Ranged/Crossbow.cs
+END
+JukaBow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Items/Weapons/Ranged/JukaBow.cs
+END
+Bow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Items/Weapons/Ranged/Bow.cs
+END
+CompositeBow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Items/Weapons/Ranged/CompositeBow.cs
+END

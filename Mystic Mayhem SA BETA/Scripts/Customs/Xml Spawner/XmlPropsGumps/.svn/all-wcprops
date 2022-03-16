@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps
+END
+XmlSetObjectGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetObjectGump.cs
+END
+XmlPropsGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlPropsGump.cs
+END
+XmlSetCustomEnumGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetCustomEnumGump.cs
+END
+XmlSetGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetGump.cs
+END
+XmlSetPoint2DGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetPoint2DGump.cs
+END
+XmlSetPoint3DGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetPoint3DGump.cs
+END
+XmlSetTimeSpanGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetTimeSpanGump.cs
+END
+XmlSetObjectTarget.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetObjectTarget.cs
+END
+XmlSetListOptionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/Scripts/Customs/Xml%20Spawner/XmlPropsGumps/XmlSetListOptionGump.cs
+END

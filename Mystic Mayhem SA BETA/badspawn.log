@@ -1,0 +1,872 @@
+# Bad spawns : 1/6/2011 11:09:15 PM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+812	2208	0	Felucca	Georgio
+812	2208	0	Trammel	Georgio
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 12:46:53 AM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 1:26:37 AM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 2:27:17 AM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 11:49:41 AM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 11:56:24 AM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 12:22:05 PM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/7/2011 1:31:24 PM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/9/2011 11:26:14 AM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+
+# Bad spawns : 1/9/2011 12:08:06 PM
+# Format: X Y Z F Name
+
+83	721	-28	Ilshenar	
+145	1898	0	Malas	eliteninjawarrior
+174	1900	0	Malas	eliteninjawarrior
+181	1883	0	Malas	eliteninjawarrior
+139	1868	0	Malas	eliteninjawarrior
+81	1892	0	Malas	eliteninjawarrior
+77	1883	0	Malas	eliteninjawarrior
+82	1875	0	Malas	eliteninjawarrior
+369	1909	0	Malas	flyingbird
+1483	1760	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true
+2290	1223	20	Felucca	hkgangspawn
+3663	1203	0	Felucca	hkgangspawn
+101	1651	0	Malas	
+1475	1644	20	Trammel	flyingbird
+2171	1355	0	Felucca	HKArcher
+2171	1355	0	Felucca	HKMage
+2171	1355	0	Felucca	HKWarrior
+2171	1355	0	Felucca	hkgangspawn
+1411	1716	20	Trammel	contractseller
+1462	1697	0	Trammel	flyingdragon/bodyvalue/6/hue/1066/tamable/false/fightmode/aggressor/name/an albatross/AI/AI_Necromage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a albatross corpse
+3676	1340	20	Felucca	hkgangspawn
+3659	1187	20	Felucca	hkgangspawn
+1522	1616	-5	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1182	2703	5	Felucca	flyingbird
+2739	706	0	Trammel	flyingbird
+2776	857	0	Trammel	flyingbird
+3720	1268	20	Felucca	hkgangspawn
+1445	1767	-2	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/aggressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse/currentspeed/0.5
+2282	1214	20	Felucca	hkgangspawn
+1416	1653	10	Trammel	flyinggazer/bodyvalue/6/hue/1154/tamable/false/fightmode/agressor/name/a seagull/AI/AI_Mage/activespeed/0.0017/ismalasian/true/ATTACH/xmldata,CorpseName,a seagull corpse
+1441	1572	30	Trammel	flyingbird
+3652	1224	20	Felucca	hkgangspawn
+5235	4011	37	Felucca	hkgangspawn
+1439	1699	0	Felucca	HKGangSpawn/Fightmode/Aggressor
+1475	1645	20	Felucca	HKGangSpawn
+1475	1645	20	Felucca	hkmage
+2227	1188	0	Felucca	hkgangspawn
+2503	563	0	Felucca	hkgangspawn
+3747	1315	0	Felucca	hkgangspawn
+626	1173	0	Felucca	hkgangspawn
+3690	2178	20	Felucca	hkgangspawn
+2326	1218	0	Felucca	hkgangspawn
+2326	1218	0	Felucca	HKArcher/title/of the Magnum Opus
+2326	1218	0	Felucca	HKMage/title/of the Magnum Opus
+2326	1218	0	Felucca	HKWarrior/title/of the Magnum Opus/
+3728	1380	5	Felucca	hkgangspawn
+2940	747	3	Felucca	hkgangspawn
+2473	459	15	Felucca	hkgangspawn
+573	1145	0	Felucca	hkgangspawn
+4441	1125	0	Felucca	hkgangspawn
+3779	1155	0	Felucca	hkgangspawn
+3713	1279	15	Felucca	hkgangspawn
+3650	1236	20	Felucca	hkgangspawn
+3728	1279	0	Felucca	hkgangspawn
+596	2186	0	Felucca	hkgangspawn
+2171	1371	0	Felucca	HKArcher/title/of the Magnum Opus
+2171	1371	0	Felucca	HKMage/title/of the Magnum Opus
+2171	1371	0	Felucca	HKWarrior/title/of the Magnum Opus
+2171	1371	0	Felucca	hkgangspawn
+5744	3166	-6	Felucca	hkgangspawn
+2281	1201	20	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkgangspawn
+1930	2779	0	Felucca	hkmage
+3754	1243	0	Felucca	hkgangspawn
+3702	1240	20	Felucca	hkgangspawn
+3720	1289	20	Felucca	hkgangspawn
+3649	1202	0	Felucca	/SAY/Die Swine!!/bodyvalue/400/hue/33770/name/Grace O' Malley/EQUIP/<shortpants/hue/2213>/EQUIP/doublet/hue/2425>/EQUIP/<featheredhat/hue/2207>/EQUIP/<boots/hue/2220>/EQUIP/pitchfork/fightmode/aggressor/combatant/MOB,Grace O'Malley/ATTACH/xmldata,CorpseName,The Remains Of Artemis Entrerei/title/[RKK]/hitsmaxseed/50000/hits/50000
+3713	1254	20	Felucca	hkgangspawn
+3659	1220	20	Felucca	hkgangspawn
+3706	1323	20	Felucca	hkgangspawn
+535	989	0	Felucca	hkgangspawn
+2337	1220	0	Felucca	HKArcher/title/of the Magnum Opus
+2337	1220	0	Felucca	HKMage/title/of the Magnum Opus/
+2337	1220	0	Felucca	HKWarrior/title/of the Magnum Opus/ADD,0.01/<dagger/hue/1643/name/Stiletto/attributes.RegenStam/RND,1,10/engravedtext/Recovered From Cove (Felucca)
+3668	1226	20	Felucca	hkgangspawn
+3713	1307	20	Felucca	hkgangspawn
+2904	978	0	Felucca	hkgangspawn
+634	847	0	Felucca	hkgangspawn
+547	1028	0	Felucca	hkgangspawn
+634	848	0	Felucca	hkgangspawn
+630	1196	0	Felucca	hkgangspawn
+551	1065	0	Felucca	hkgangspawn
+
+

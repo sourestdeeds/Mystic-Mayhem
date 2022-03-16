@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests
+END
+BaseQuestItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/BaseQuestItem.cs
+END
+BaseQuest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/BaseQuest.cs
+END
+MondainQuester.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/MondainQuester.cs
+END
+BaseReward.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/BaseReward.cs
+END
+QuestObjectives.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/QuestObjectives.cs
+END
+HeritageQuester.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/HeritageQuester.cs
+END
+QuestChains.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/QuestChains.cs
+END
+BaseEscort.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Engines/Quests/BaseEscort.cs
+END

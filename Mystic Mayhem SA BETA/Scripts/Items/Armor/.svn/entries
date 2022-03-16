@@ -1,0 +1,129 @@
+10
+
+dir
+9
+http://sa-project.googlecode.com/svn/trunk/Scripts/Items/Armor
+http://sa-project.googlecode.com/svn
+
+
+
+2010-12-21T04:11:18.732225Z
+9
+thilgon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+189d0219-9a09-88c9-99ae-53a4afc504fd
+
+Ring
+dir
+
+BaseArmor.cs
+file
+
+
+
+
+2011-01-05T22:48:14.500000Z
+7c073b5856d56462f3f80e7de67fe910
+2010-09-27T08:59:19.423142Z
+5
+thilgon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+67553
+
+Artifacts
+dir
+
+Helmets
+dir
+
+Chain
+dir
+
+Bone
+dir
+
+Leather
+dir
+
+Plate
+dir
+
+DaemonBone
+dir
+
+Dragon
+dir
+
+Studded
+dir
+
+ArmorEnums.cs
+file
+
+
+
+
+2011-01-05T22:48:14.500000Z
+5250a4adef0cbc1d1f0caf0599c8c9c2
+2010-08-31T01:43:02.703732Z
+1
+thilgon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+782
+
+Ranger
+dir
+

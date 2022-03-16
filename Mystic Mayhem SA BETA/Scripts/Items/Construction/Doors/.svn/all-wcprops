@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/9/trunk/Scripts/Items/Construction/Doors
+END
+SecretDoors.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Doors/SecretDoors.cs
+END
+BaseDoor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/Scripts/Items/Construction/Doors/BaseDoor.cs
+END
+Portcullis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Doors/Portcullis.cs
+END
+Doors.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Doors/Doors.cs
+END
+HouseDoors.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Items/Construction/Doors/HouseDoors.cs
+END

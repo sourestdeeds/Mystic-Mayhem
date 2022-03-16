@@ -1,0 +1,5 @@
+http://www.runuo.com/forum/showthread.php?t=36630&highlight=Dupres+Token
+
+if( loc.Y > m_From.Location.Y+7 || loc.Y < m_From.Location.Y-1 ) //Change the demensions of the yard HERE if( loc.X > m_From.Location.X+5 || loc.X < m_From.Location.X-5 ) //and HERE
+
+would give you 7 steps in front of the house, even with back, and 5 steps on either side.

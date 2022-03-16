@@ -1,0 +1,210 @@
+using System;
+using Server;
+using Server.Items;
+using Server.Engines.CannedEvil; 
+
+namespace Server.Mobiles
+{
+//	[CorpseName( "a corpse" )]
+	public class DarkRider : BaseChampion
+	{
+		public override bool IsScaredOfScaryThings{ get{ return false; } }
+		public override bool IsScaryToPets{ get{ return true; } }
+		public override ChampionSkullType SkullType{ get{ return ChampionSkullType.Death; } }
+
+		[Constructable]
+		public DarkRider () : base( AIType.AI_Mage, FightMode.Evil ) //, FightMode.Aggressor, 10, 1, 0.2, 0.4 )
+		{
+			Name = "Dark Heart";
+
+			//BaseSoundID = 362;
+			NameHue = 1171;
+			Body = 400;
+			Female = false;
+			Hue = 33770;
+			Kills = 10;
+
+			SetStr(  800, 1000 ); //1196, 1285 );
+			SetDex( 160, 185 );
+			SetInt( 706, 726 );
+
+			SetHits( 4000, 4250 ); // 3000
+
+			SetDamage( 30, 35 );
+
+			//SetDamageType( ResistanceType.Physical, 100 );
+			SetDamageType( ResistanceType.Fire, 50 );
+			SetDamageType( ResistanceType.Cold, 50 );
+			//SetDamageType( ResistanceType.Poison, 50 );
+			//SetDamageType( ResistanceType.Energy, 50 );
+
+			SetResistance( ResistanceType.Physical, 85, 95 );
+			SetResistance( ResistanceType.Fire, 85, 95 );
+			SetResistance( ResistanceType.Cold, 40, 50 );
+			SetResistance( ResistanceType.Poison, 85, 95 );
+			SetResistance( ResistanceType.Energy, 65, 75 );
+
+			SetSkill( SkillName.Magery, 120.0 );
+			SetSkill( SkillName.Meditation, 110.1, 120.0 );
+			SetSkill( SkillName.EvalInt, 210.1, 220.0 );
+			SetSkill( SkillName.MagicResist, 115.1, 120.0 ); // +1000
+			SetSkill( SkillName.Tactics, 109.3, 120.0 );
+			SetSkill( SkillName.Wrestling, 109.3, 120.0 );
+			SetSkill( SkillName.Anatomy, 109.3, 120.0 );
+
+		//	AddItem( new LongHair( 1126 ) );
+			HairItemID = 0x203C;
+			HairHue = 0x466;
+			Item chest = new FancyShirt();
+			chest.Hue = 1;
+			chest.Movable = false;
+			AddItem( chest );
+
+			Item feet = new Shoes();
+			feet.Hue = 1;
+			feet.Movable = false;
+			AddItem( feet );
+
+			Item legs = new LongPants();
+			legs.Hue = 1;
+			legs.Movable = false;
+			AddItem( legs );
+
+			Fame = 22500;
+			Karma = -22500;
+
+			VirtualArmor = 120;
+			new ElderWarHorse().Rider = this;
+
+		}
+		public override void GenerateLoot()
+		{
+			AddLoot( LootPack.UltraRich, 5 );
+		}
+/*		public override void OnDeath( Container c )
+		{
+
+	 	if( Utility.Random( 100 ) < 100 ) // 100% chance for scroll
+			switch ( Utility.Random( 10 )) 
+			{ 
+			case 0: c.DropItem( new PowerScroll( SkillName.Blacksmith, 120 ) ); break; 
+			case 1: c.DropItem( new PowerScroll( SkillName.Blacksmith, 115 ) ); break; 
+			case 2: c.DropItem( new PowerScroll( SkillName.Tailoring, 120 ) ); break;  
+			case 3: c.DropItem( new PowerScroll( SkillName.Tailoring, 115 ) ); break; 
+			case 4: c.DropItem( new PowerScroll( SkillName.Tinkering, 120 ) ); break; 
+			case 5: c.DropItem( new PowerScroll( SkillName.Tinkering, 115 ) ); break; 
+			case 6: c.DropItem( new PowerScroll( SkillName.Mining, 120 ) ); break;  
+			case 7: c.DropItem( new PowerScroll( SkillName.Mining, 115 ) ); break; 
+			case 8: c.DropItem( new PowerScroll( SkillName.Carpentry, 120 ) ); break;  
+			case 9: c.DropItem( new PowerScroll( SkillName.Carpentry, 115 ) ); break;
+			}
+	 	if( Utility.Random( 100 ) < 100 ) // 100% chance for scroll
+			switch ( Utility.Random( 10 )) 
+			{  
+			case 0: c.DropItem( new PowerScroll( SkillName.Alchemy, 120 ) ); break; 
+			case 1: c.DropItem( new PowerScroll( SkillName.Alchemy, 115 ) ); break; 
+			case 2: c.DropItem( new PowerScroll( SkillName.Fletching, 120 ) ); break; 
+			case 3: c.DropItem( new PowerScroll( SkillName.Fletching, 115 ) ); break; 
+			case 4: c.DropItem( new PowerScroll( SkillName.Inscribe, 120 ) ); break;  
+			case 5: c.DropItem( new PowerScroll( SkillName.Inscribe, 115 ) ); break; 
+			case 6: c.DropItem( new PowerScroll( SkillName.Cartography, 120 ) ); break;  
+			case 7: c.DropItem( new PowerScroll( SkillName.Cartography, 115 ) ); break; 
+			case 8: c.DropItem( new PowerScroll( SkillName.Tinkering, 120 ) ); break;  
+			case 9: c.DropItem( new PowerScroll( SkillName.Tinkering, 115 ) ); break; 
+      			}
+			base.OnDeath( c );
+		} */
+		public override int TreasureMapLevel{ get{ return 5; } }
+
+		public void SpawnBunny( Mobile target )
+		{
+			Map map = this.Map;
+
+			if ( map == null )
+				return;
+
+			int newBunny = Utility.RandomMinMax( 3, 5 ); //3 6
+
+			for ( int i = 0; i < newBunny; ++i )
+			{
+				DarkBunny bunny = new DarkBunny();
+
+				bunny.Team = this.Team;
+				bunny.FightMode = FightMode.Closest;
+
+				bool validLocation = false;
+				Point3D loc = this.Location;
+
+				for ( int j = 0; !validLocation && j < 10; ++j )
+				{
+					int x = X + Utility.Random( 3 ) - 1;
+					int y = Y + Utility.Random( 3 ) - 1;
+					int z = map.GetAverageZ( x, y );
+
+					if ( validLocation = map.CanFit( x, y, this.Z, 16, false, false ) )
+						loc = new Point3D( x, y, Z );
+					else if ( validLocation = map.CanFit( x, y, z, 16, false, false ) )
+						loc = new Point3D( x, y, z );
+				}
+
+				bunny.MoveToWorld( loc, map );
+				bunny.Combatant = target;
+			}
+		}
+
+
+		public override int GetIdleSound()
+		{
+			return 0x45B;
+		}
+
+		public override int GetHurtSound()
+		{
+			return 0x462;
+		}
+
+		public override bool AutoDispel{ get{ return true; } }
+
+		public override void OnGaveMeleeAttack( Mobile defender )
+		{
+			base.OnGaveMeleeAttack( defender );
+
+			defender.Damage( Utility.Random( 20, 10 ), this );
+			defender.Stam -= Utility.Random( 10, 5 );
+			defender.Mana -= Utility.Random( 20, 10 );
+		}
+
+		public override void OnGotMeleeAttack( Mobile attacker )
+		{
+			base.OnGotMeleeAttack( attacker );
+
+			if ( 0.1 >= Utility.RandomDouble() )
+				SpawnBunny( attacker );
+
+			attacker.Damage( Utility.Random( 20, 10 ), this );
+			attacker.Stam -= Utility.Random( 10, 5 );
+			attacker.Mana -= Utility.Random( 20, 10 );
+		}
+
+		public DarkRider( Serial serial ) : base( serial )
+		{
+		}
+
+
+		public override bool BardImmune{ get{ return true; } }
+		public override Poison PoisonImmune{ get{ return Poison.Lethal; } }
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+			writer.Write( (int) 0 );
+		}
+
+		public override void Deserialize(GenericReader reader)
+		{
+			base.Deserialize(reader);
+
+			int version = reader.ReadInt();
+		}
+	}
+}

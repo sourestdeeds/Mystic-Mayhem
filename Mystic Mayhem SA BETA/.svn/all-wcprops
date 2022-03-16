@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/9/trunk
+END
+zlib32.dll
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/1/trunk/zlib32.dll
+END
+zlib64.dll
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/6/trunk/zlib64.dll
+END
+Ultima.dll
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/1/trunk/Ultima.dll
+END
+runme.bat
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/9/trunk/runme.bat
+END

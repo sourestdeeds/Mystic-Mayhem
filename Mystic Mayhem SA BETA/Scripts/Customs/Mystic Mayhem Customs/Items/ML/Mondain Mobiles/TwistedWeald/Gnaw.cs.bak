@@ -1,0 +1,76 @@
+using System;
+using Server.Mobiles;
+using Server.Items;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a wolf corpse" )]
+	public class Gnaw : BaseCreature
+	{
+		[Constructable]
+		public Gnaw() : base( AIType.AI_Melee,FightMode.Closest, 10, 1, 0.2, 0.4 )
+		{
+			Name = "gnaw";
+			Body = 23;
+			Hue = 3;
+			BaseSoundID = 0xE5;
+
+			SetStr( 170, 190 );
+			SetDex( 145, 165 );
+			SetInt( 60, 80 );
+
+			SetHits( 790, 820 );
+			SetMana( 60, 80 );
+			SetStam( 145, 160 );
+
+			SetDamage( 21, 27 );
+
+			SetDamageType( ResistanceType.Physical, 100 );
+
+			SetResistance( ResistanceType.Physical, 60, 85 );
+			SetResistance( ResistanceType.Fire, 50, 70 );
+			SetResistance( ResistanceType.Cold, 30, 50 );
+			SetResistance( ResistanceType.Poison, 30, 50 );
+			SetResistance( ResistanceType.Energy, 25, 45 );
+
+			SetSkill( SkillName.MagicResist, 110.1, 115.0 );
+			SetSkill( SkillName.Tactics, 105.1, 110.0 );
+			SetSkill( SkillName.Wrestling, 115.1, 120.0 );
+
+			Fame = 2500;
+			Karma = -2500;
+
+			VirtualArmor = 22;
+
+			Tamable = false;
+
+			PackGold( 200, 250 );
+			if ( Utility.RandomDouble() <= 0.30 )
+			PackItem( new GnawsFang( ) );
+		}
+
+		public override int Meat{ get{ return 1; } }
+		public override int Hides{ get{ return 7; } }
+		public override HideType HideType{ get{ return HideType.Spined; } }
+		//public override FoodType FavoriteFood{ get{ return FoodType.Meat; } }
+
+
+		public Gnaw(Serial serial) : base(serial)
+		{
+		}
+
+		public override void Serialize(GenericWriter writer)
+		{
+			base.Serialize(writer);
+
+			writer.Write((int) 0);
+		}
+
+		public override void Deserialize(GenericReader reader)
+		{
+			base.Deserialize(reader);
+
+			int version = reader.ReadInt();
+		}
+	}
+}

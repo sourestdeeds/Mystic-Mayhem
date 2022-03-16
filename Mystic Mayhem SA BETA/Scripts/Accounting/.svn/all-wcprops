@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/Scripts/Accounting
+END
+Account.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Accounting/Account.cs
+END
+IPLimiter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/Scripts/Accounting/IPLimiter.cs
+END
+AccountComment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Accounting/AccountComment.cs
+END
+Accounts.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Accounting/Accounts.cs
+END
+Firewall.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Accounting/Firewall.cs
+END
+AccountTag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Accounting/AccountTag.cs
+END
+AccountHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Accounting/AccountHandler.cs
+END
+AccessRestrictions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Accounting/AccessRestrictions.cs
+END
+AccountAttackLimiter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Accounting/AccountAttackLimiter.cs
+END

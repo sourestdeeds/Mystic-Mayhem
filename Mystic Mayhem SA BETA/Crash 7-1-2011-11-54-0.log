@@ -1,0 +1,26 @@
+Server Crash Report
+===================
+
+RunUO Version 2.1, Build 4022.41206
+Operating System: Microsoft Windows NT 5.1.2600 Service Pack 3
+.NET Framework: 2.0.50727.42
+Time: 1/7/2011 11:54:00 AM
+Mobiles: 42669
+Items: 307493
+Exception:
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Server.Mobiles.OmniAI.GetRandomMageryDamageSpell()
+   at Server.Mobiles.OmniAI.GetMagerySpell()
+   at Server.Mobiles.OmniAI.MageryPower()
+   at Server.Mobiles.OmniAI.DoActionCombat()
+   at Server.Mobiles.BaseAI.Think()
+   at Server.Mobiles.OmniAI.Think()
+   at Server.Mobiles.BaseAI.DoOrderGuard()
+   at Server.Mobiles.BaseAI.Obey()
+   at Server.Mobiles.BaseAI.AITimer.OnTick()
+   at Server.Timer.Slice()
+   at Server.Core.Main(String[] args)
+
+Clients:
+- Count: 1
++ 127.0.0.1: (account = jon) (mobile = 0x102B8 'Master Bob')

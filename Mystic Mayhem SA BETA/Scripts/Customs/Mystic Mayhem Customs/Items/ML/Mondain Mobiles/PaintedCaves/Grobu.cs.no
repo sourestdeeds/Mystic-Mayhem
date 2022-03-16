@@ -1,0 +1,74 @@
+using System;
+using Server.Mobiles;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a grobu corpse" )]
+	public class Grobu : BaseCreature
+	{
+		[Constructable]
+		public Grobu() : base( AIType.AI_Animal, FightMode.Closest, 10, 1, 0.2, 0.4 )
+		{
+			Name = "Grobu";
+			Body = 211;
+			BaseSoundID = 0xA3;
+
+			SetStr( 184, 207 );
+			SetDex( 129, 150 );
+			SetInt( 49, 52 );
+
+			SetHits( 1239, 1308 );
+			SetStam( 129, 207 );
+			SetMana( 0 );
+
+			SetDamage( 14, 30 );
+
+			SetDamageType( ResistanceType.Physical, 100 );
+
+			SetResistance( ResistanceType.Physical, 40, 45 );
+			SetResistance( ResistanceType.Fire, 20, 40 );
+			SetResistance( ResistanceType.Cold, 30, 35 );
+			SetResistance( ResistanceType.Poison, 25, 30 );
+			SetResistance( ResistanceType.Energy, 20, 40 );
+
+			SetSkill( SkillName.MagicResist, 60.2, 83.6 );
+			SetSkill( SkillName.Tactics, 96.7, 118.4 );
+			SetSkill( SkillName.Wrestling, 96.7, 116.8 );
+
+			Fame = 1450;
+			Karma = -1450;
+
+			VirtualArmor = 24;
+
+			Tamable = false;
+
+		}
+		public override void GenerateLoot()
+		{
+			AddLoot( LootPack.Rich );
+			AddLoot( LootPack.Gems );
+		}
+
+		public override int Meat{ get{ return 10; } }
+		public override int Hides{ get{ return 12; } }
+
+
+		public Grobu( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize(GenericWriter writer)
+		{
+			base.Serialize( writer );
+
+			writer.Write( (int) 0 );
+		}
+
+		public override void Deserialize(GenericReader reader)
+		{
+			base.Deserialize( reader );
+
+			int version = reader.ReadInt();
+		}
+	}
+}

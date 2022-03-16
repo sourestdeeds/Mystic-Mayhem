@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/trunk/Scripts/Spells/Chivalry
+END
+CleanseByFire.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/CleanseByFire.cs
+END
+SacredJourney.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/Scripts/Spells/Chivalry/SacredJourney.cs
+END
+RemoveCurse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/RemoveCurse.cs
+END
+DispelEvil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/Scripts/Spells/Chivalry/DispelEvil.cs
+END
+ConsecrateWeapon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/ConsecrateWeapon.cs
+END
+HolyLight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/HolyLight.cs
+END
+EnemyOfOne.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/EnemyOfOne.cs
+END
+DivineFury.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/DivineFury.cs
+END
+CloseWounds.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/CloseWounds.cs
+END
+NobleSacrifice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/Scripts/Spells/Chivalry/NobleSacrifice.cs
+END
+PaladinSpell.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Spells/Chivalry/PaladinSpell.cs
+END

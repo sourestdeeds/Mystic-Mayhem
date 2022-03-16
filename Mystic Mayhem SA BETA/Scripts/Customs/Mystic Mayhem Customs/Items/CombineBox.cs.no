@@ -1,0 +1,86 @@
+using System;
+using Server.Items;
+using Server.Network;
+
+namespace Server.Items
+{
+	[Furniture]
+	[Flipable( 0x232A, 0x232B )]
+	public class CombineBox : WoddenBox
+	{
+		[Constructable]
+		public CombineBox() : this( Utility.RandomDyedHue() )
+		{
+		}
+
+		[Constructable]
+		public CombineBox( int hue ) : base( Utility.Random( 0x232A, 2 ) )
+		{
+			Weight = 2.0;
+			Hue = hue;
+		}
+
+		public override bool OnDragDrop( Mobile from, Item dropped )
+		{
+			BaseTool tool = dropped as BaseTool;
+
+			if ( tool != null && base.OnDragDrop( from, dropped ) )
+			{
+				Combine( tool );
+
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		public override bool OnDragDropInto( Mobile from, Item dropped, Point3D p )
+		{
+			RecallRune rune = dropped as RecallRune;
+
+			if ( rune != null && base.OnDragDropInto( from, dropped, p ) )
+			{
+				Combine( tool );
+
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		public void Combine( BaseTool tool )
+		{
+			if ( dropped is BaseTool && dropped.GetType() == this.GetType() )
+			{
+			//	from.CloseGump( typeof(SkillBallGump) );
+				BaseTool bt = (BaseTool)dropped;
+				this.UsesRemaining += bt.UsesRemaining;
+				bt.Delete();
+				return true;
+			}
+			return false;
+		}
+
+		public CombineBox( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+
+			writer.Write( (int) 0 ); // version
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+
+			int version = reader.ReadInt();
+		}
+	}
+}

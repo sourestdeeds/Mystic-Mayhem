@@ -1,0 +1,171 @@
+using System;
+using Server;
+using Server.Items;
+using Server.Mobiles;
+using Server.Targeting;
+using System.Collections;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a charger of the fallen corpse" )]
+	public class ChargerOfTheFallen : BaseMount
+	{
+		[Constructable]
+		public ChargerOfTheFallen() : this( "Charger Of The Fallen" )
+		{
+		}
+
+		[Constructable]
+		public ChargerOfTheFallen( string name ) : base( name, 0xBE, 0x3E9E, AIType.AI_Melee, FightMode.Closest, 10, 1, 0.1, 0.2 )
+		{
+                        Name = "a charger of the fallen";
+                        Body = 284;
+				ItemID = 16018;
+                        Hue = Utility.RandomList ( 1, 1174, 1153, 1170, 1360, 1109, 33, 1072,  1151, 1155, 1173 );
+			BaseSoundID = 0xA8;
+
+			SetStr( 350, 600 );
+			SetDex( 391, 450 );
+			SetInt( 29, 30 );
+
+			SetHits( 1226, 1740 );
+
+			SetDamage( 22, 30 );
+
+			SetDamageType( ResistanceType.Physical, 20 );
+			SetDamageType( ResistanceType.Cold, 80 );
+
+			SetResistance( ResistanceType.Physical, 40, 80 );
+			SetResistance( ResistanceType.Fire, 40, 80 );
+			SetResistance( ResistanceType.Cold, 40, 80 );
+			SetResistance( ResistanceType.Poison, 40, 80 );
+			SetResistance( ResistanceType.Energy, 40, 80 );
+
+			SetSkill( SkillName.MagicResist, 100.0, 120.0 );
+			SetSkill( SkillName.Tactics, 80.0, 100.0 );
+			SetSkill( SkillName.Wrestling, 120.0, 200.0 );
+			SetSkill( SkillName.Poisoning, 100.0, 120.0 );
+
+			Fame = 20000;
+			Karma = -20000;
+
+			Tamable = true;
+			ControlSlots = 4;
+			MinTameSkill = 114.9;
+
+			PackGold( Utility.RandomMinMax( 400, 650 ) );
+
+			PackItem( new Ruby( Utility.RandomMinMax( 10, 20 ) ) );
+		}
+	/*	public override void OnDeath( Container c )
+		{
+
+	 		if( Utility.Random( 15 ) < 1 ) 
+			switch ( Utility.Random( 6 )) 
+			{ 
+				case 0: c.DropItem( new FlorianeArms() ); break; 
+				case 1: c.DropItem( new FlorianeBustier() ); break;
+				case 2: c.DropItem( new FlorianeChest() ); break;
+				case 3: c.DropItem( new FlorianeGloves() ); break;
+				case 4: c.DropItem( new FlorianeHeadress() ); break;
+				case 5: c.DropItem( new FlorianeSkirt() ); break;
+
+
+      			}
+			base.OnDeath( c );
+		}
+	*/
+		public override bool HasBreath{ get{ return true; } } // fire breath enabled
+		public override int Meat{ get{ return 5; } }
+		public override int Hides{ get{ return 10; } }
+		public override HideType HideType{ get{ return HideType.Barbed; } }
+		public override FoodType FavoriteFood{ get{ return FoodType.Meat; } }
+		public override bool BardImmune{ get{ return true; } }
+		public override Poison PoisonImmune{ get{ return Poison.Greater; } }		
+		public override Poison HitPoison{ get{ return Poison.Lethal; } }
+		
+
+		public override WeaponAbility GetWeaponAbility()
+		{
+			switch ( Utility.Random( 3 ) )
+			{
+				default:
+				case 0: return WeaponAbility.MortalStrike;
+				case 1: return WeaponAbility.WhirlwindAttack;
+				case 2: return WeaponAbility.CrushingBlow;
+			}
+		}
+
+		public override void OnGaveMeleeAttack( Mobile defender )
+		{
+			base.OnGaveMeleeAttack( defender );
+
+		//	if ( 0.1 >= Utility.RandomDouble() )
+		//		Earthquake();
+		}
+
+		public void Earthquake()
+		{
+			Map map = this.Map;
+
+			if ( map == null )
+				return;
+
+			ArrayList targets = new ArrayList();
+
+			foreach ( Mobile m in this.GetMobilesInRange( 15 ) )
+			{
+				if ( m == this || !CanBeHarmful( m ) )
+					continue;
+
+				if ( m is BaseCreature && (((BaseCreature)m).Controlled || ((BaseCreature)m).Summoned || ((BaseCreature)m).Team != this.Team) )
+					targets.Add( m );
+				else if ( m.Player )
+					targets.Add( m );
+			}
+
+			PlaySound( 0x2F3 );
+
+			for ( int i = 0; i < targets.Count; ++i )
+			{
+				Mobile m = (Mobile)targets[i];
+
+				double damage = m.Hits * 0.6;
+
+				if ( damage < 10.0 )
+					damage = 10.0;
+				else if ( damage > 75.0 )
+					damage = 75.0;
+
+				DoHarmful( m );
+
+				AOS.Damage( m, this, (int)damage, 100, 0, 0, 0, 0 );
+
+				if ( m.Alive && m.Body.IsHuman && !m.Mounted )
+					m.Animate( 20, 7, 1, true, false, 0 ); // take hit
+			}
+		}
+
+
+		public ChargerOfTheFallen( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+
+			writer.Write( (int) 0 ); // version
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+
+			int version = reader.ReadInt();
+
+			if ( BaseSoundID <= 0 )
+				BaseSoundID = 0xA8;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Monsters/Summons
+END
+SummonedDaemon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Monsters/Summons/SummonedDaemon.cs
+END
+SummonedWaterElemental.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Monsters/Summons/SummonedWaterElemental.cs
+END
+SummonedEarthElemental.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Monsters/Summons/SummonedEarthElemental.cs
+END
+SummonedFireElemental.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Monsters/Summons/SummonedFireElemental.cs
+END
+SummonedAirElemental.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Monsters/Summons/SummonedAirElemental.cs
+END

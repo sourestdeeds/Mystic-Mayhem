@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/9/trunk/Scripts/Regions
+END
+TownRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Regions/TownRegion.cs
+END
+NoHousingRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Regions/NoHousingRegion.cs
+END
+BaseRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/Scripts/Regions/BaseRegion.cs
+END
+GreenAcres.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Regions/GreenAcres.cs
+END
+GuardedRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Regions/GuardedRegion.cs
+END
+Jail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/Scripts/Regions/Jail.cs
+END
+DungeonRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Regions/DungeonRegion.cs
+END
+HouseRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Regions/HouseRegion.cs
+END

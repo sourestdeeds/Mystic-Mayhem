@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI
+END
+AnimalAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/AnimalAI.cs
+END
+SpeedInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/SpeedInfo.cs
+END
+SpellbinderAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/SpellbinderAI.cs
+END
+ArcherAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/ArcherAI.cs
+END
+OppositionGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/OppositionGroup.cs
+END
+MeleeAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/MeleeAI.cs
+END
+MageAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/MageAI.cs
+END
+BaseAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/BaseAI.cs
+END
+BerserkAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/BerserkAI.cs
+END
+VendorAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/VendorAI.cs
+END
+AIControlMobileTarget.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/AIControlMobileTarget.cs
+END
+ThiefAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/ThiefAI.cs
+END
+PredatorAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/PredatorAI.cs
+END
+HealerAI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/AI/HealerAI.cs
+END

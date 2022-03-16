@@ -1,0 +1,81 @@
+using System;
+using System.Collections;
+using Server.Items;
+using Server.Targeting;
+
+namespace Server.Mobiles
+{
+	[CorpseName( "a mummy corpse" )]
+	public class UnfrozenMummy : BaseCreature
+	{
+		[Constructable]
+		public UnfrozenMummy() : base( AIType.AI_Mage, FightMode.Closest, 10, 1, 0.4, 0.8 )
+		{
+			Name = "an unfrozen mummy";
+			Body = 154;
+			BaseSoundID = 471;
+			Hue = 1152;
+
+			SetStr( 498, 525 );
+			SetDex( 211, 225 );
+			SetInt( 849, 860 );
+
+			SetHits( 1500, 1550 );
+			SetStam( 150, 160 );
+			SetMana( 849, 860 );
+
+			SetDamage( 13, 23 );
+
+			SetDamageType( ResistanceType.Energy, 50 );
+			SetDamageType( ResistanceType.Cold, 50 );
+
+			SetResistance( ResistanceType.Physical, 39, 55 );
+			SetResistance( ResistanceType.Fire, 24, 40 );
+			SetResistance( ResistanceType.Cold, 69, 80 );
+			SetResistance( ResistanceType.Poison, 29, 50 );
+			SetResistance( ResistanceType.Energy, 64, 80 );
+
+			SetSkill( SkillName.MagicResist, 250.0 );
+			SetSkill( SkillName.Tactics, 100.0 );
+			SetSkill( SkillName.Wrestling, 96.0, 101.0 );
+			SetSkill( SkillName.EvalInt, 52.0 );
+			SetSkill( SkillName.Magery, 52.0 );
+			SetSkill( SkillName.Meditation, 80.0 );
+
+			Fame = 4000;
+			Karma = -4000;
+
+			VirtualArmor = 50;
+
+			PackItem( new Bandage( 30 ) );
+
+			if ( Utility.RandomDouble() <= 0.30 )
+				PackItem( new BrokenCrystal() );
+		}
+
+		public override void GenerateLoot()
+		{
+			AddLoot( LootPack.Rich, 3 );
+			AddLoot( LootPack.Gems, 3 );
+
+		}
+
+		public override Poison PoisonImmune{ get{ return Poison.Lesser; } }
+
+		public UnfrozenMummy( Serial serial ) : base( serial )
+		{
+		}
+
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+			writer.Write( (int) 0 );
+		}
+
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+			int version = reader.ReadInt();
+		}
+	}
+}

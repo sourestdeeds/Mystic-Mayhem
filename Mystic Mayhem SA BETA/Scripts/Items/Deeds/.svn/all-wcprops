@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/9/trunk/Scripts/Items/Deeds
+END
+HolidayTreeDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9/trunk/Scripts/Items/Deeds/HolidayTreeDeed.cs
+END
+VendorRentalContract.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Items/Deeds/VendorRentalContract.cs
+END
+ClothingBlessDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/Scripts/Items/Deeds/ClothingBlessDeed.cs
+END
+DragonBardingDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Items/Deeds/DragonBardingDeed.cs
+END
+HairRestylingDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Items/Deeds/HairRestylingDeed.cs
+END
+CommodityDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/trunk/Scripts/Items/Deeds/CommodityDeed.cs
+END
+BarkeepContract.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Items/Deeds/BarkeepContract.cs
+END
+NameChangeDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Items/Deeds/NameChangeDeed.cs
+END
+NewPlayerTicket.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Items/Deeds/NewPlayerTicket.cs
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core
+END
+QuestSerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestSerializer.cs
+END
+QuestObjective.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestObjective.cs
+END
+QuestItemInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestItemInfo.cs
+END
+QuestConversation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestConversation.cs
+END
+QuestCallbackEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestCallbackEntry.cs
+END
+QuestRestartInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestRestartInfo.cs
+END
+BaseQuester.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/BaseQuester.cs
+END
+QuestSystem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Core/QuestSystem.cs
+END

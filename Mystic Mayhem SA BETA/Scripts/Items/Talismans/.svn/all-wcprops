@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/trunk/Scripts/Items/Talismans
+END
+TalismanAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/Scripts/Items/Talismans/TalismanAttribute.cs
+END
+BaseTalisman.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4/trunk/Scripts/Items/Talismans/BaseTalisman.cs
+END
+TalismanSlayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/trunk/Scripts/Items/Talismans/TalismanSlayer.cs
+END
+RandomTalisman.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4/trunk/Scripts/Items/Talismans/RandomTalisman.cs
+END
+TalismanSummons.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/Scripts/Items/Talismans/TalismanSummons.cs
+END

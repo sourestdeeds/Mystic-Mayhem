@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9/trunk/Scripts/Engines/Quests/Collector/Items
+END
+ImageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/Scripts/Engines/Quests/Collector/Items/ImageType.cs
+END
+PaintedImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Collector/Items/PaintedImage.cs
+END
+EnchantedPaints.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Collector/Items/EnchantedPaints.cs
+END
+Obsidian.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Collector/Items/Obsidian.cs
+END

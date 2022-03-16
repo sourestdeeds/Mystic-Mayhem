@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/9/trunk/Scripts/Commands
+END
+DecorateMag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/Scripts/Commands/DecorateMag.cs
+END
+BoundingBoxPicker.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Commands/BoundingBoxPicker.cs
+END
+GenCategorization.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/Scripts/Commands/GenCategorization.cs
+END
+SignParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Commands/SignParser.cs
+END
+GenTeleporter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/Scripts/Commands/GenTeleporter.cs
+END
+ConvertPlayers.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Commands/ConvertPlayers.cs
+END
+Batch.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Scripts/Commands/Batch.cs
+END
+VisibilityList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Commands/VisibilityList.cs
+END
+Logging.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/Scripts/Commands/Logging.cs
+END
+Attributes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Commands/Attributes.cs
+END
+Decorate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/Scripts/Commands/Decorate.cs
+END
+SkillsMenu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Commands/SkillsMenu.cs
+END
+Add.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1/trunk/Scripts/Commands/Add.cs
+END
+Docs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Commands/Docs.cs
+END
+Profiling.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/Scripts/Commands/Profiling.cs
+END
+Properties.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/Scripts/Commands/Properties.cs
+END
+Dupe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Commands/Dupe.cs
+END
+ExportWSC.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Commands/ExportWSC.cs
+END
+Handlers.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/Scripts/Commands/Handlers.cs
+END
+Skills.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Commands/Skills.cs
+END
+Wipe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/Scripts/Commands/Wipe.cs
+END
+HelpInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/Scripts/Commands/HelpInfo.cs
+END
+Statics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/Scripts/Commands/Statics.cs
+END

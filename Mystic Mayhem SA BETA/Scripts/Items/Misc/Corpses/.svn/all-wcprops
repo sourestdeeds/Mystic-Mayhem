@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Corpses
+END
+Corpse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Corpses/Corpse.cs
+END
+CorpseNameAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Corpses/CorpseNameAttribute.cs
+END
+Packets.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Corpses/Packets.cs
+END
+DecayedCorpse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Items/Misc/Corpses/DecayedCorpse.cs
+END

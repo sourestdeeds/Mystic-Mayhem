@@ -1,0 +1,24 @@
+/*---------------------------------------------------- BaseStoreKey crafting BEGIN-----------------------------------
+
+This block allows the craft system to check and withdraw resources from any BaseStoreKey or MasterKey objects found within the
+crafter's backpack.  
+
+Location: This block belongs in CraftItem.cs under Scripts\Engines\Craft\Core\. This block needs to be inserted in the main ConsumeRes
+method within the block that reads "if ( ourPack.GetBestGroupAmount( types[i], true, new CheckItemGroup( CheckHueGrouping ) ) < amounts[i] ) {"
+In an unmodified server, this can be found on line 749, so insertion should begin on line 751
+
+
+Installation: drop this block in place, being mindful of the structure around it
+
+*/
+							//perform a scan and withdraw of the requested resource if it is found.  If not, then let the standard
+							//operation continue
+							if( BaseStoreKey.CraftWithdraw( ourPack, types[i], amounts[i] ) )
+							{
+								//this overrides the failure condition and lets the thread continue on with the next type in the
+								//types list
+								continue;
+							}
+							
+							//otherwise, report not found and abort
+//---------------------------------------------------- BaseStoreKey crafting END-----------------------------------

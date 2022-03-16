@@ -1,0 +1,22 @@
+Server Crash Report
+===================
+
+RunUO Version 2.1, Build 4022.41206
+Operating System: Microsoft Windows NT 5.1.2600 Service Pack 3
+.NET Framework: 2.0.50727.42
+Time: 1/9/2011 12:08:26 PM
+Mobiles: 42641
+Items: 307473
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Misc.CharacterCreation.EventSink_CharacterCreated(CharacterCreatedEventArgs args)
+   at Server.CharacterCreatedEventHandler.Invoke(CharacterCreatedEventArgs e)
+   at Server.EventSink.InvokeCharacterCreated(CharacterCreatedEventArgs e)
+   at Server.Network.PacketHandlers.CreateCharacter(NetState state, PacketReader pvSrc)
+   at Server.Network.MessagePump.HandleReceive(NetState ns)
+   at Server.Network.MessagePump.Slice()
+   at Server.Core.Main(String[] args)
+
+Clients:
+- Count: 1
++ 127.0.0.1: (account = jon)

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards
+END
+RewardConfirmGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardConfirmGump.cs
+END
+RewardNoticeGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardNoticeGump.cs
+END
+RewardList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardList.cs
+END
+RewardDemolitionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardDemolitionGump.cs
+END
+RewardCategory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardCategory.cs
+END
+RewardOptionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardOptionGump.cs
+END
+RewardEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardEntry.cs
+END
+RewardChoiceGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardChoiceGump.cs
+END
+RewardSystem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/VeteranRewards/RewardSystem.cs
+END

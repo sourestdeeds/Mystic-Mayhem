@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/9/trunk/Scripts/Engines/Quests/Collector
+END
+Conversations.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Collector/Conversations.cs
+END
+Objectives.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Collector/Objectives.cs
+END
+CollectorQuest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/Quests/Collector/CollectorQuest.cs
+END

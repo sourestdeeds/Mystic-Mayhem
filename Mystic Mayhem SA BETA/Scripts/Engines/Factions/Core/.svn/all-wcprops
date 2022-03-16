@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core
+END
+SilverGivenEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/SilverGivenEntry.cs
+END
+Persistance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Persistance.cs
+END
+Faction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Faction.cs
+END
+FactionState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/FactionState.cs
+END
+Reflector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Reflector.cs
+END
+Generator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Generator.cs
+END
+MerchantTitles.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/MerchantTitles.cs
+END
+Town.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Town.cs
+END
+StrongholdRegion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/StrongholdRegion.cs
+END
+TownState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/TownState.cs
+END
+VendorList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/VendorList.cs
+END
+PlayerState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/PlayerState.cs
+END
+GuardList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/GuardList.cs
+END
+FactionItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/FactionItem.cs
+END
+Election.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Election.cs
+END
+Keywords.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Core/Keywords.cs
+END

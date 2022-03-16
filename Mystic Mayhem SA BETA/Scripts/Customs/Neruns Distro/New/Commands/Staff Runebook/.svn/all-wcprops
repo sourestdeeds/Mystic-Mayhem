@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook
+END
+Utilities.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Utilities.cs
+END
+Save.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Save.cs
+END
+Load.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Load.cs
+END
+Main.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Main.cs
+END
+Persistence.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Persistence.cs
+END
+NewRunePrompt.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/NewRunePrompt.cs
+END
+RuneAccount.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/RuneAccount.cs
+END
+Gump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Gump.cs
+END
+Rune.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/Rune.cs
+END
+RuneGate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/RuneGate.cs
+END
+NewRuneTarget.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1/trunk/Scripts/Customs/Neruns%20Distro/New/Commands/Staff%20Runebook/NewRuneTarget.cs
+END

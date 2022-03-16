@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/5/trunk/Scripts/Items/Games
+END
+CheckerBoard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/CheckerBoard.cs
+END
+Chessboard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/Scripts/Items/Games/Chessboard.cs
+END
+ChessPieces.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/ChessPieces.cs
+END
+Backgammon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/Backgammon.cs
+END
+BasePiece.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/BasePiece.cs
+END
+CheckersPieces.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/CheckersPieces.cs
+END
+BaseBoard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/BaseBoard.cs
+END
+Dices.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/Scripts/Items/Games/Dices.cs
+END

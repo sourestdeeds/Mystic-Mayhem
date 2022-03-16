@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/9/trunk/Data
+END
+items.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1/trunk/Data/items.cfg
+END
+signs.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1/trunk/Data/signs.cfg
+END
+names.xml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1/trunk/Data/names.xml
+END
+SpawnDefinitions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/Data/SpawnDefinitions.xml
+END
+containers.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1/trunk/Data/containers.cfg
+END
+bodyTable.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/5/trunk/Data/bodyTable.cfg
+END
+Common.map
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1/trunk/Data/Common.map
+END
+Assemblies.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1/trunk/Data/Assemblies.cfg
+END
+Regions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1/trunk/Data/Regions.xml
+END
+objects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1/trunk/Data/objects.xml
+END
+treasure.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1/trunk/Data/treasure.cfg
+END
+mobiles.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1/trunk/Data/mobiles.cfg
+END
+pageresponse.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/Data/pageresponse.cfg
+END
+shrink.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1/trunk/Data/shrink.cfg
+END

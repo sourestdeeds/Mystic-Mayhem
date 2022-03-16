@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps
+END
+ElectionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/ElectionGump.cs
+END
+FinanceGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/FinanceGump.cs
+END
+FactionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/FactionGump.cs
+END
+FactionImbueGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/FactionImbueGump.cs
+END
+SheriffGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/SheriffGump.cs
+END
+JoinStoneGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/JoinStoneGump.cs
+END
+HorseBreederGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/HorseBreederGump.cs
+END
+FactionStoneGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/FactionStoneGump.cs
+END
+VoteGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/VoteGump.cs
+END
+ElectionManagementGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/ElectionManagementGump.cs
+END
+TownStoneGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/TownStoneGump.cs
+END
+LeaveFactionGump.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Gumps/LeaveFactionGump.cs
+END

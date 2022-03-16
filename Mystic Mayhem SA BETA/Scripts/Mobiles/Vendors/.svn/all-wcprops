@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/Vendors
+END
+VendorInventory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/VendorInventory.cs
+END
+GenericBuy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/Vendors/GenericBuy.cs
+END
+GenericSell.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/GenericSell.cs
+END
+PlayerBarkeeper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/PlayerBarkeeper.cs
+END
+RentedVendor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/RentedVendor.cs
+END
+PresetMapBuy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/PresetMapBuy.cs
+END
+BeverageBuy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/BeverageBuy.cs
+END
+AnimalBuy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/AnimalBuy.cs
+END
+BaseVendor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/Scripts/Mobiles/Vendors/BaseVendor.cs
+END
+PlayerVendor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Mobiles/Vendors/PlayerVendor.cs
+END

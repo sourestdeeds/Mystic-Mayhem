@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants
+END
+Guide.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/Guide.cs
+END
+Herald.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/Herald.cs
+END
+LuckyDealer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/LuckyDealer.cs
+END
+PersonalAttendant.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/PersonalAttendant.cs
+END
+PersonalAttendantToken.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/PersonalAttendantToken.cs
+END
+PersonalAttendantDeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/PersonalAttendantDeed.cs
+END
+FortuneTeller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1/trunk/Scripts/Customs/Mondain's%20Legacy/Personal%20Attendants/FortuneTeller.cs
+END

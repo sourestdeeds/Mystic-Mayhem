@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items
+END
+FactionStone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/FactionStone.cs
+END
+StrongholdMonolith.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/StrongholdMonolith.cs
+END
+TownStone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/TownStone.cs
+END
+TownMonolith.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/TownMonolith.cs
+END
+BaseSystemController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/BaseSystemController.cs
+END
+Silver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/Silver.cs
+END
+BaseMonolith.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/BaseMonolith.cs
+END
+Sigil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/Sigil.cs
+END
+JoinStone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/Scripts/Engines/Factions/Items/JoinStone.cs
+END
